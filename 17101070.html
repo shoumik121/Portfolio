@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><tt>Shoumik Rouf<tt></h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Student.</p>
+<p>studying at University of Asia Pacific</p> 
+
+
+    <div class="content">
+      <img src="24068151_1559855974095372_3256631621349232404_n.jpg" alt="photo" width="400" height="400" style="float: right">
+ 
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Coding-Bite-Sized-Lessons-Apps-670x335.jpg" alt="Writing and Learning code" style="width:100%">
+      <h3>Programming:</h3>
+      <p>#Syntax semantics and pragmatics of programming languages:</p>
+<p>#Java,Python,C++,HTML5</p>
+<p>#DBMS languages: Microsoft SQL Server</p>
+<p>#others:Codular,Css,FS5</p>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Beginner-Guitar-Chords-2.jpg" alt="Music" style="width:90%">
+      <h3>Accomplishments:</h3>
+      <p>#intermediate guitar learning from "Saat Rong Academy"</p>
+<p>Contact no: 01726702318</p>
+<p>Founder member of "Scorned Rage"</p>
+<p>Designation: Vocalist</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="india_game.jpg" style="width:100%">
+      <h3>Online Gaming:</h3>
+      <p>#Beta tester and workshop desinger of 'Dota 2'</p>
+<p>#Player: GTA5,Farcry4,CS-GO</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="5876ab1656a9a28212225916_outsourced-lead-gen.png" alt="Researcher" style="width:100%">
+      <h3>Web Researcher:</h3>
+      <p>#Blog reader</p>
+<p>#Youtube conasure</p>
+<p>#Social sites algorithms understanding</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="Charity-Banner-3.png" alt="charity" style="width:100%">
+  <h3>Charity</h3>
+  <p>Always prepared to spread some love and respect</p>
+  <p>Tuitioned poor children</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
